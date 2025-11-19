@@ -1,5 +1,5 @@
-echo Pufferpanel install script by is-a.space Owner
-echo discord.gg/hetzner !
+echo Pufferpanel install script
+echo
 
 echo Installing curl and wget
 apt-get install -y curl wget > /dev/null
@@ -16,7 +16,7 @@ systemctl start pufferpanel
 echo Done installing pufferpanel
 
 echo Adding user
-pufferpanel user add --admin --email admin@is-a.space --password adminadmin --name admin
+pufferpanel user add --admin --email admin@local.host --password adminadmin --name admin
 echo Done adding user
 
 echo Installing cloudlared
@@ -24,7 +24,7 @@ wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudfla
 apt-get install -y ./cloudflared-linux-amd64.deb
 echo Done installing cloudflared
 
-echo Use
-echo cloudflared tunnel --url http://localhost:8080
-echo to get access to your panel. Retry this command if it doesnt work or you restarted this server
-echo Admin user is password adminadmin and email admin@is-a.space . You can change creds in panel
+echo "Use"
+echo "cloudflared tunnel --url http://localhost:8080"
+echo "To get access to your panel. Retry this command if it doesnt work or you restarted this server"
+echo "Admin user is password adminadmin and email admin@local.host. You can change creds in panel"
