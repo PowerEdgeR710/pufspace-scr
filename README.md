@@ -1,11 +1,11 @@
-A simple tool to install pufferpanel on proot and full-systemd servers
+# A simple tool to install pufferpanel on proot/docker and full-systemd servers
 You need curl to use this
 
-Proot (Cloudflared)
+Proot/Docker (Cloudflared)
 ```
 curl https://raw.githubusercontent.com/thestupidadmin/pufspace-scr/refs/heads/main/script-proot-cloudflared.sh | bash
 ```
-Proot (Portip)
+Proot/Docker (Portip)
 ```
 curl https://raw.githubusercontent.com/thestupidadmin/pufspace-scr/refs/heads/main/script-proot.sh | bash
 ```
