@@ -1,4 +1,4 @@
-## A simple tool to install pufferpanel on proot/docker and full-systemd servers
+### A simple tool to install pufferpanel on proot/docker and full-systemd servers
 You need curl to use this
 
 Proot/Docker (Cloudflared)
