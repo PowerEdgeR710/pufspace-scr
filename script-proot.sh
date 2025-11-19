@@ -1,5 +1,5 @@
-echo Pufferpanel install script by is-a.space Owner
-echo discord.gg/hetzner !
+echo Pufferpanel install script
+echo
 
 echo Installing curl
 apt-get install -y curl > /dev/null
@@ -20,7 +20,7 @@ systemctl start pufferpanel
 echo Done patching and installing pufferpanel
 
 echo Adding user
-pufferpanel user add --admin --email admin@is-a.space --password adminadmin --name admin
+pufferpanel user add --admin --email admin@local.host --password adminadmin --name admin
 echo Done adding user if you done the inputs
 
 echo Installing ported / portip
@@ -120,12 +120,11 @@ esac
 
 chmod +x /bin/portip
 echo Done installing ported / portip
-echo Now do 
-echo portip add 8080
-echo to get port 8080 and access your panel
-echo Admin user is password adminadmin and email admin@is-a.space . You can change creds in panel
-
-
+echo
+echo "Use"
+echo "portip add 8080"
+echo "to get port 8080 and access your panel"
+echo "Admin user is password adminadmin and email 'admin@local.host'. You can change creds in panel"
 
 
 
