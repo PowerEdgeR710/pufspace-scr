@@ -27,4 +27,4 @@ echo Done installing cloudflared
 echo "Use"
 echo "cloudflared tunnel --url http://localhost:8080"
 echo "To get access to your panel. Retry this command if it doesnt work or you restarted this server"
-echo "Admin user is password adminadmin and email admin@local.host. You can change creds in panel"
+echo "Admin user is password adminadmin and email 'admin@local.host'. You can change creds in panel"
