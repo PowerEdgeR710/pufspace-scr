@@ -20,7 +20,7 @@ systemctl start pufferpanel
 echo Done patching and installing pufferpanel
 
 echo Adding user
-pufferpanel user add --admin --email admin@is-a.space --password adminadmin --name admin
+pufferpanel user add --admin --email admin@local.host --password adminadmin --name admin
 echo Done adding user if you done the inputs
 
 echo Installing cloudlared
